@@ -210,21 +210,27 @@ main{
 
 .s1-title{
     color: #fff;
-    position: absolute;
-    top: -120px;
     font-size: 40;
 }
 
 .s1-line{
     background-color: #027373;
-    width: 60px;
+    width: 50px;
     height: 4px;
+    margin: auto;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.s1-h{
     position: absolute;
-    top: -70px;
+    top: -160px;
+    font-size: 40;
+    text-align: center;
 }
 
 
-.s1-title:hover .s1-line{
+.s1-h:hover .s1-line{
     width: 90px;
 }
 
@@ -453,6 +459,10 @@ section div .content p{
     text-align: center;
 }
 
+.s4-h{
+    margin: auto;
+}
+
 .s4-title{
     color: #fff;
     font-size: 40;
@@ -464,10 +474,11 @@ section div .content p{
     height: 4px;
     margin: auto;
     margin-top: 5px;
+    transition: 0.5s;
 }
 
-.s4-title:hover .s4-line{
-    width: 100px;
+.s4-h:hover .s4-line{
+    width: 110px;
 }
 
 
