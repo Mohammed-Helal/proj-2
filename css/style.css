@@ -525,6 +525,7 @@ section div .content p{
     height: 100%;
     background-color: rgba(0, 0, 0 , 0.5);
     text-align: center;
+    padding:10px;
 }
 
 .s4-oo a i{
